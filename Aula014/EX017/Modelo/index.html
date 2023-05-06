@@ -5,26 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>EX 1 hora do dia</title>
+    <title>Tabuada</title>
 </head>
-<body onload="carregar()">
+<body>
 <header>
-    <h1>Hora do Dia</h1>
+    Tabuada
 </header>
     
-    <section id="msg">
+    <section>
         <div>
-            Aqui aparecera a hora ...
+            <p>
+                Numero: <input type="number" name="num" id="txtn">
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+            </p>
         </div>
         
-        <div id="foto">
-            <img id="imagem" src="img/fotonoite.png" alt="foto do dia">
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+            </select>
         </div>
     </section>
     
 <footer>
-    <p>&copy; CursoemVideo</p>
+    <p>© CursoemVideo</p>
 </footer>
+
 <script src="script.js"></script>
 </body>
 </html>
